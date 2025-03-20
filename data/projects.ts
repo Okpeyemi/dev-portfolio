@@ -1,0 +1,58 @@
+import type { Project } from "@/types/project";
+
+export const projects: Project[] = [
+  {
+    title: "SpotMeUp",
+    description:
+      "Une plateforme SaaS permettant aux professionnels de créer et gérer facilement un portfolio en ligne mettant en valeur leurs compétences, projets et expériences.",
+    image: "/projets/projet1.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "ShadCN"],
+    demoUrl: "https://spotmeup.vercel.app/",
+    githubUrl: "https://github.com/Okpeyemi/SpotMeUp",
+  },
+  {
+    title: "Finset",
+    description:
+      "Un tableau de bord interactif pour la finance et la gestion, avec des graphiques dynamiques et une interface optimisée pour l'analyse des données.",
+    image: "/projets/projet2.png",
+    technologies: ["Next.js", "TypeScript", "Chart.js", "Tailwind CSS", "ShadCN"],
+    demoUrl: "https://finset-phi.vercel.app/dashboard",
+    githubUrl: "https://github.com/Okpeyemi/finset",
+  },
+  {
+    title: "Lara's Corporate",
+    description:
+      "Un site web dédié à la publication et la mise en avant des articles de vendeurs utilisant WhatsApp, facilitant la visibilité de leurs produits.",
+    image: "/projets/projet3.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
+    demoUrl: "https://laras-corporate.vercel.app/",
+    githubUrl: "https://github.com/Okpeyemi/laras-corporate",
+  },
+  {
+    title: "Portfolio",
+    description:
+      "Mon premier portfolio en ligne, développé avec Next.js, mettant en avant mes projets, compétences et expériences professionnelles.",
+    image: "/projets/projet4.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
+    demoUrl: "https://maqsoudtawaliou.vercel.app/",
+    githubUrl: "https://github.com/Okpeyemi/theResume",
+  },
+  {
+    title: "Taama",
+    description:
+      "Un prototype de site e-commerce dédié à la vente de bandes dessinées, offrant une navigation fluide et un design épuré.",
+    image: "/projets/projet5.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
+    demoUrl: "https://taama.vercel.app/",
+    githubUrl: "https://github.com/Okpeyemi/taama",
+  },
+  {
+    title: "SmartScop",
+    description:
+      "Une application web de gestion des entrées et sorties dans un parc, permettant un suivi en temps réel des visiteurs et du contrôle d'accès.",
+    image: "/projets/projet6.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
+    demoUrl: "https://smart-repo.vercel.app/",
+    githubUrl: "https://github.com/Okpeyemi/smart_repo",
+  },
+];
