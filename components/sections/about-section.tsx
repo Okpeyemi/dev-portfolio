@@ -16,7 +16,9 @@ export default function AboutSection({
   sectionNumber,
   sectionId,
 }: AboutSectionProps) {
-  const [activeTab, setActiveTab] = useState<"experience" | "projects">("experience");
+  const [activeTab, setActiveTab] = useState<"experience" | "projects">(
+    "experience"
+  );
   const [isExpanded, setIsExpanded] = useState<string | null>(null);
 
   const toggleSection = (section: string) => {
@@ -78,7 +80,7 @@ export default function AboutSection({
       {/* Tabs Section */}
       <div className="mt-24">
         {/* Desktop View */}
-        <div className="hidden md:block">
+        {/* <div className="hidden md:block">
           <div className="flex gap-24 mb-8">
             <div className="space-y-2">
               <button
@@ -146,10 +148,10 @@ export default function AboutSection({
               </motion.div>
             )}
           </AnimatePresence>
-        </div>
+        </div> */}
 
         {/* Mobile Accordion */}
-        <div className="md:hidden space-y-4">
+        {/* <div className="md:hidden space-y-4">
           <div className="border border-[#333339] rounded-lg overflow-hidden">
             <button
               onClick={() => toggleSection("experience")}
@@ -227,7 +229,7 @@ export default function AboutSection({
               )}
             </AnimatePresence>
           </div>
-        </div>
+        </div> */}
       </div>
     </SectionLayout>
   );

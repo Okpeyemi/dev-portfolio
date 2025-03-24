@@ -30,7 +30,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
         <div className="flex justify-between items-center">
-          <Link href={project.demoUrl} className="text-yellow-300 hover:underline flex items-center gap-1">
+          <Link target="_blank" href={project.demoUrl} className="text-yellow-300 hover:underline flex items-center gap-1">
             <span>View Project</span>
             <ExternalLink className="w-4 h-4" />
           </Link>
