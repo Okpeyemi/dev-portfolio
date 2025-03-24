@@ -55,14 +55,14 @@ export default function AboutSection({
           <p className="text-gray-300 leading-relaxed">{personalInfo.bio1}</p>
           <p className="text-gray-300 leading-relaxed">{personalInfo.bio2}</p>
 
-          <div className="grid md:grid-cols-2 gap-4 pt-4">
+          {/* <div className="grid md:grid-cols-2 gap-4 pt-4">
             {Object.entries(personalInfo.details).map(([key, value]) => (
               <div key={key}>
                 <h4 className="text-yellow-300 font-medium mb-2">{key}</h4>
                 <p>{value}</p>
               </div>
             ))}
-          </div>
+          </div> */}
 
           <div className="pt-4 max-md:flex max-md:justify-center">
             <a

@@ -20,7 +20,7 @@ export default function ContactSection({
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <h3 className="text-2xl font-semibold mb-6">Get In Touch</h3>
+          <h3 className="text-2xl font-semibold mb-6">Entrer en contact</h3>
           <p className="text-gray-300 mb-8">
             N&apos;hésitez pas à nous contacter si vous recherchez un développeur, si
             vous avez une question ou si vous souhaitez simplement vous
@@ -30,7 +30,7 @@ export default function ContactSection({
           <ContactInfo />
 
           <div className="mt-12">
-            <h4 className="font-medium mb-4">Follow Me</h4>
+            <h4 className="font-medium mb-4">Suivez-moi sur :</h4>
             <SocialButtons />
           </div>
         </div>

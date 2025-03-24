@@ -20,7 +20,7 @@ export default function SectionLayout({ children, title, sectionNumber, sectionI
       </div>
 
       {/* Page Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-3xl text-gray-500">
+      <div className="max-md:hidden absolute bottom-8 left-1/2 -translate-x-1/2 text-3xl text-gray-500">
         {sectionNumber.toString().padStart(2, "0")}
       </div>
     </section>

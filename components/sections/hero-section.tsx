@@ -5,7 +5,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ sectionNumber, sectionId }: HeroSectionProps) {
   return (
-    <section id={sectionId} className="min-h-screen max-md:h-[300px] flex flex-col justify-center items-center relative">
+    <section id={sectionId} className="md:min-h-screen max-md:h-[700px] flex flex-col justify-center items-center relative">
       <div className="px-4">
         <h2 className="text-xl text-gray-400 mb-2"><span className="text-yellow-300">SALUT</span> JE SUIS</h2>
         <div className="relative">
@@ -16,7 +16,7 @@ export default function HeroSection({ sectionNumber, sectionId }: HeroSectionPro
       </div>
 
       {/* Page Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-3xl text-gray-500">
+      <div className="max-md:hidden absolute bottom-8 left-1/2 -translate-x-1/2 text-3xl text-gray-500">
         {sectionNumber.toString().padStart(2, "0")}
       </div>
     </section>
