@@ -18,11 +18,11 @@ export default function Header({ currentSection, onNavigate }: HeaderProps) {
   }, [currentSection]);
 
   const navItems = [
-    { label: "HOME", section: 1, id: "home" },
-    { label: "ABOUT", section: 2, id: "about" },
-    { label: "SKILLS", section: 3, id: "skills" },
-    { label: "PROJECTS", section: 4, id: "projects" },
-    { label: "CONTACT", section: 5, id: "contact" },
+    { label: "ACCEUIL", section: 1, id: "home" },
+    { label: "À PROPOS DE MOI", section: 2, id: "about" },
+    { label: "MES COMPÉTENCES", section: 3, id: "skills" },
+    { label: "MES PROJETS", section: 4, id: "projects" },
+    { label: "ME CONTACTER", section: 5, id: "contact" },
   ];
 
   const handleNavigation = (section: number, id: string) => {
