@@ -10,7 +10,7 @@ interface SkillsSectionProps {
 
 export default function SkillsSection({ sectionNumber, sectionId }: SkillsSectionProps) {
   return (
-    <SectionLayout sectionId={sectionId} title="MY SKILLS" sectionNumber={sectionNumber}>
+    <SectionLayout sectionId={sectionId} title="MES COMPÉTENCES" sectionNumber={sectionNumber}>
       <div className="grid grid-cols-1 md:grid-rows-2 gap-16">
         {/* Technical Skills - Now using TechGrid instead of skill bars */}
         <div>
