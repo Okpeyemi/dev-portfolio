@@ -17,10 +17,10 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-4">
-            <Link href={socialLinks.github} className="text-gray-400 hover:text-yellow-300 transition-colors">
+            <Link target="_blank" href={socialLinks.github} className="text-gray-400 hover:text-yellow-300 transition-colors">
               <Github className="w-5 h-5" />
             </Link>
-            <Link href={socialLinks.linkedin} className="text-gray-400 hover:text-yellow-300 transition-colors">
+            <Link target="_blank" href={socialLinks.linkedin} className="text-gray-400 hover:text-yellow-300 transition-colors">
               <Linkedin className="w-5 h-5" />
             </Link>
             {/* <Link href={socialLinks.instagram} className="text-gray-400 hover:text-yellow-300 transition-colors">

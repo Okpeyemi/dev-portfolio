@@ -68,8 +68,8 @@ export const technologies = [
   //   icon: "https://cdn.simpleicons.org/wordpress/21759B",
   // },
   {
-    name: "Framer Motion",
-    icon: "https://cdn.simpleicons.org/framer/0055FF",
+    name: "Nest.js",
+    icon: "https://cdn.simpleicons.org/nestjs",
   },
   // {
   //   name: "Adobe Photoshop",

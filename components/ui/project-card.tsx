@@ -34,7 +34,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             <span>View Project</span>
             <ExternalLink className="w-4 h-4" />
           </Link>
-          <Link href={project.githubUrl} className="text-gray-400 hover:text-white">
+          <Link target="_blank" href={project.githubUrl} className="text-gray-400 hover:text-white">
             <Github className="w-5 h-5" />
           </Link>
         </div>

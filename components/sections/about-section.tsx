@@ -36,7 +36,7 @@ export default function AboutSection({
       title="ABOUT ME"
       sectionNumber={sectionNumber}
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
         <div className="relative max-lg:hidden">
           <div className="relative z-10 overflow-hidden rounded-lg">
             <Image
@@ -53,7 +53,7 @@ export default function AboutSection({
         <div className="space-y-6">
           <h3 className="text-3xl font-semibold">{personalInfo.title}</h3>
           <p className="text-gray-300 leading-relaxed">{personalInfo.bio1}</p>
-          <p className="text-gray-300 leading-relaxed">{personalInfo.bio2}</p>
+          {/* <p className="text-gray-300 leading-relaxed">{personalInfo.bio2}</p> */}
 
           {/* <div className="grid md:grid-cols-2 gap-4 pt-4">
             {Object.entries(personalInfo.details).map(([key, value]) => (

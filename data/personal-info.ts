@@ -1,7 +1,7 @@
 export const personalInfo = {
-  title: "Développeur Frontend & IA/Big Data Enthusiaste",
-  bio1: "Passionné par l’informatique et plus particulièrement par l’intelligence artificielle, je conçois des solutions innovantes en combinant développement web et gestion de projets. Avec une expertise en React, Next.js, Vue.js, et d’autres technologies modernes, je crée des applications performantes et ergonomiques.",
-  bio2: "Mon parcours m’a amené à travailler sur des projets variés, allant de plateformes e-commerce à des solutions SaaS, en passant par la gestion du temps et le recrutement en ligne. Curieux et rigoureux, j’aime explorer de nouvelles technologies et repousser les limites de mes compétences. Mon objectif est d’évoluer vers un rôle d’ingénieur et consultant en IA et Big Data, en mettant mes connaissances au service de projets ambitieux.",
+  title: "Développeur Web & IA/Big Data Enthusiaste",
+  bio1: "Ingénieur en formation, passionné par l'intelligence artificielle et les systèmes d'information. Fort de plusieurs expériences en développement web fullstack, en planification de projets via Azure DevOps et en modélisation UML, je conçois et intègre des solutions logicielles end-to-end. J'interviens de la phase d'idéation à la mise en production et maintenance, dans une logique Agile.",
+  // bio2: "Mon parcours m’a amené à travailler sur des projets variés, allant de plateformes e-commerce à des solutions SaaS, en passant par la gestion du temps et le recrutement en ligne. Curieux et rigoureux, j’aime explorer de nouvelles technologies et repousser les limites de mes compétences. Mon objectif est d’évoluer vers un rôle d’ingénieur et consultant en IA et Big Data, en mettant mes connaissances au service de projets ambitieux.",
   details: {
     Nom: "Maqsoud Tawaliou",
     Email: "maqsoudt9@gmail.com",

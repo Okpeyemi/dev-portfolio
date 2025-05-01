@@ -12,7 +12,7 @@ export default function HeroSection({ sectionNumber, sectionId }: HeroSectionPro
           <h1 className="max-sm:text-5xl max-md:text-6xl md:text-9xl font-bold tracking-wider text-gray-200">MAQSOUD</h1>
           <div className="h-1 w-full max-md:w-[100px] md:w-[500px] bg-yellow-300 absolute -top-6 right-0"></div>
         </div>
-        <h3 className="text-yellow-300 text-end text-lg md:text-xl mt-4 tracking-wide">UN DEVELOPPEUR FRONTEND</h3>
+        <h3 className="text-yellow-300 text-end text-lg md:text-xl mt-4 tracking-wide">DEVELOPPEUR WEB</h3>
       </div>
 
       {/* Page Indicator */}
