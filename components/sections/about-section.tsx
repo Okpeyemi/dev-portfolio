@@ -33,7 +33,7 @@ export default function AboutSection({
   return (
     <SectionLayout
       sectionId={sectionId}
-      title="A PROPOS DE MOI"
+      title="À PROPOS DE MOI"
       sectionNumber={sectionNumber}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
