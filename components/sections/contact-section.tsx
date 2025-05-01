@@ -15,7 +15,7 @@ export default function ContactSection({
   return (
     <SectionLayout
       sectionId={sectionId}
-      title="CONTACT ME"
+      title="ME CONTACTER"
       sectionNumber={sectionNumber}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
