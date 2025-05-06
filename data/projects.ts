@@ -6,7 +6,13 @@ export const projects: Project[] = [
     description:
       "Une plateforme SaaS permettant aux professionnels de créer et gérer facilement un portfolio en ligne mettant en valeur leurs compétences, projets et expériences.",
     image: "/projets/projet1.png",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "ShadCN"],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "ShadCN",
+    ],
     demoUrl: "https://spotmeup.vercel.app/",
     githubUrl: "https://github.com/Okpeyemi/SpotMeUp",
   },
@@ -15,7 +21,13 @@ export const projects: Project[] = [
     description:
       "Un tableau de bord interactif pour la finance et la gestion, avec des graphiques dynamiques et une interface optimisée pour l'analyse des données.",
     image: "/projets/projet2.png",
-    technologies: ["Next.js", "TypeScript", "Chart.js", "Tailwind CSS", "ShadCN"],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Chart.js",
+      "Tailwind CSS",
+      "ShadCN",
+    ],
     demoUrl: "https://finset-phi.vercel.app/dashboard",
     githubUrl: "https://github.com/Okpeyemi/finset",
   },
@@ -29,11 +41,11 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/Okpeyemi/laras-corporate",
   },
   {
-    title: "Portfolio",
+    title: "FeedHawk",
     description:
-      "Mon premier portfolio en ligne, développé avec Next.js, mettant en avant mes projets, compétences et expériences professionnelles.",
+      "FeedHawk est une plateforme qui permet d'automatiser votre veille technologique grâce à des résumés d'articles générés par IA et des newsletters personnalisées. Ce dépôt contient le code source de la landing page de FeedHawk.",
     image: "/projets/projet4.png",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Lucide"],
     demoUrl: "https://maqsoudtawaliou.vercel.app/",
     githubUrl: "https://github.com/Okpeyemi/theResume",
   },
@@ -43,8 +55,8 @@ export const projects: Project[] = [
       "Un prototype de site e-commerce dédié à la vente de bandes dessinées, offrant une navigation fluide et un design épuré.",
     image: "/projets/projet5.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
-    demoUrl: "https://taama.vercel.app/",
-    githubUrl: "https://github.com/Okpeyemi/taama",
+    demoUrl: "https://feedhawk.vercel.app/",
+    githubUrl: "https://github.com/Okpeyemi/feedhawk",
   },
   {
     title: "SmartScop",
