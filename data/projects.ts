@@ -43,7 +43,7 @@ export const projects: Project[] = [
   {
     title: "FeedHawk",
     description:
-      "FeedHawk est une plateforme qui permet d'automatiser votre veille technologique grâce à des résumés d'articles générés par IA et des newsletters personnalisées. Ce dépôt contient le code source de la landing page de FeedHawk.",
+      "Plateforme d'automatisation de veille technologique grâce à des résumés d'articles générés par IA et des newsletters personnalisées.",
     image: "/projets/projet4.png",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Lucide"],
     demoUrl: "https://maqsoudtawaliou.vercel.app/",
