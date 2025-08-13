@@ -156,4 +156,4 @@ Aucune licence explicite trouvée dans le dépôt. Ajoutez un fichier LICENSE si
 
 ## Auteur
 
-- GitHub: @Okpeyemi
+- GitHub: [@Okpeyemi](https://github.com/Okpeyemi)
